@@ -1,0 +1,231 @@
+/* courses */
+
+.single-courses article{width: 100%;}
+.single-courses .resp-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+.single-courses .resp-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+.single-courses .page-index{
+	background: #ac802d;
+    background: -moz-linear-gradient(-36deg,#B5873A 23%, #F6E084 86%, transparent 88%, transparent 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(86%, #F6E084), color-stop(88%, transparent), color-stop(100%, transparent));
+    background: -webkit-linear-gradient(-36deg,#B5873A 23%, #F6E084 86%, transparent 88%, transparent 100%);
+    background: -o-linear-gradient(-36deg,#B5873A 23%, #F6E084 86%, transparent 88%, transparent 100%);
+    background: -ms-linear-gradient(-36deg,#B5873A 23%, #F6E084 86%, transparent 88%, transparent 100%);
+    background: linear-gradient(105deg,#B5873A 23%, #F6E084 86%, transparent 88%, transparent 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ac802d', endColorstr='transparent', GradientType=1 );
+    max-width: max-content !important;
+    width: 72px !important;
+    padding: 7px 15px 7px 5px !important;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+.single-courses div.page-link a{
+	min-height:unset;
+}
+.single-courses .page-link.is-active,
+.single-courses .page-link.is-active:before,
+.single-courses .page-link.is-active:after,
+.single-courses .page-link:hover,
+.single-courses .page-link:hover:before,
+.single-courses .page-link:hover:after{
+	background-color: #323232;
+    border-right-color: #d0ac59;
+}
+.page-template-all-courses .event-img time span.price{
+display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+.page-template-all-courses .event-img time span.price ins{
+	background-color: transparent;
+} 
+.page-template-all-courses .woocommerce-LoopProduct-link{
+	width: 100%
+}
+.page-template-all-courses .full-events .desc{
+	width: 100%;
+}
+a.single_add_to_cart_button.button.alt {
+    max-width: max-content;
+}
+.single-courses .link_to{
+	margin-top: 20px;
+}
+.course-img .bg-img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.status {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.status i {
+    color: #03ec03;
+    font-size: 27px;
+}
+.progress {
+    height: 20px;
+    position: relative;
+    margin: 0 0 5px;
+    background: #eee;
+    width: 100%;
+}
+.inner-progress {
+	height: 20px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(43,194,83);
+    background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(43,194,83)), color-stop(1, rgb(84,240,84)) );
+    background-image: -moz-linear-gradient( center bottom, rgb(43,194,83) 37%, rgb(84,240,84) 69% );
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    line-height: initial;
+    width: 100%;
+}
+.inner-progress:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.25, rgba(255, 255, 255, .2)), color-stop(.25, transparent), color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .2)), color-stop(.75, rgba(255, 255, 255, .2)), color-stop(.75, transparent), to(transparent) );
+    background-image: -moz-linear-gradient( -45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent );
+    z-index: 1;
+    -webkit-background-size: 50px 50px;
+    -moz-background-size: 50px 50px;
+    background-size: 50px 50px;
+    -webkit-animation: move 2s linear infinite;
+    -moz-animation: move 2s linear infinite;    
+    overflow: hidden;
+}  
+.inner-progress.completed:after {
+    display: none;
+} 
+@-webkit-keyframes move {
+    0% {
+       background-position: 0 0;
+    }
+    100% {
+       background-position: 50px 50px;
+    }
+}
+
+@-moz-keyframes move {
+    0% {
+       background-position: 0 0;
+    }
+    100% {
+       background-position: 50px 50px;
+    }
+}
+
+.single-status {
+    padding: 0 5px;
+    color: #03b903;
+}  
+.certificate img {
+    max-width: 250px;
+}
+ul#ninja-pdf-generator{
+	padding: 0;
+}
+ul#ninja-pdf-generator li {
+    list-style: none;
+    display: inline;
+    margin: 0 10px;
+}
+.type-courses .entry-content {
+    margin-top: 0;
+}
+.type-courses .page-index {
+    min-width: 33%;
+}
+
+.sidenav .closebtn,.lessons-menu{
+	display: none;
+	color: #AC802D;
+    font-size: 18px;
+    font-family: 'open_sansbold_italic';
+    background: -webkit-linear-gradient(#d8b211,#B5873A);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+body.opened-menu {
+    overflow: hidden;
+    padding-right: 17px;
+}
+.lesson-popup {
+    width: 100%;
+    height: 100%;
+     display: none; 
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: rgba(0,0,0,0.75);
+    z-index: 100;
+}
+body.opened-menu .lesson-popup{
+	display: block;
+}
+@media screen and (max-width:767px) { /* 1200px*/
+	.sidenav .closebtn,.lessons-menu{
+		display: block;
+	}
+	#sidenav {
+	  height: 100%;
+	  width: 300px;
+	  position: fixed;
+	  z-index: 2000;
+	  top: 0;
+	  right: -305px;
+	  background-color: #fff;
+	  overflow-x: hidden;
+	  transition: 0.5s;
+	  padding: 0;
+	  padding-top: 50px;
+	}
+
+	.sidenav a {
+	  
+	  display: block;
+	  transition: 0.3s;
+	}
+
+	.sidenav a:hover {	}
+
+	.sidenav .closebtn {
+	 	position: absolute;
+	  	top: 0;
+	  	left: 9px;
+	    font-size: 45px;
+	    font-weight: 100;
+	    width: 35px;
+	    text-align: center;
+	}
+}
+@media screen and (max-width:450px) { /* 1200px*/
+	.page-template-user-courses .course-item,
+	.page-all-courses .course-item{
+		-ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    max-width: 100%;
+	}
+}

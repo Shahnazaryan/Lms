@@ -1,0 +1,52 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+#advanced-pdf-generator {
+    display: block;
+    list-style: none;
+    margin: 15px 0;
+    padding: 15px 0;
+    text-align: right;
+    width: 100%;
+}
+
+#advanced-pdf-generator li {
+    display: inline-block;
+    padding: 5px 15px;
+}
+
+ #advanced-pdf-generator li a.advanced-pdf-generator.view-pdf,
+ #advanced-pdf-generator li a.advanced-pdf-generator.download-pdf,
+ #advanced-pdf-generator li a.advanced-pdf-generator.send-pdf {
+     text-decoration: none;
+ }
+ #modal-send .lightbox-email,
+ #modal-mail .lightbox-email {
+    background-color: white;
+    padding: 15px;
+    margin: 60px auto;
+    max-width: 680px;
+    text-align: left;
+ }
+ #modal-send .lightbox-email .cont-input {
+     margin-bottom: 15px;
+ }
+
+#modal-send .lightbox-email .close,
+#modal-mail .lightbox-email .close {
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+    width: 20px;
+    text-align: center;
+    margin-top: -10px;
+ }
+#apdfg-send-email {
+    text-align: center;
+}
+#apdfg-send-email .cont-input {
+    margin-bottom: 15px;
+    text-align: left;
+}
